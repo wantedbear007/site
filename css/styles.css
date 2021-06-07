@@ -132,7 +132,7 @@ html {
 
 .user_image {
   image-rendering: auto;
-  image-resolution: 100dpi;
+  image-resolution: 80dpi;
   border-radius: 50%;
   height: 250px;
   border-width: 5px;
@@ -351,7 +351,7 @@ html {
 
 .snaps {
   image-rendering: auto;
-  image-resolution: 200dpi;
+  image-resolution: 150dpi;
   transition: 1s;
   width: 93%;
   transition-duration: .3s;
