@@ -349,6 +349,7 @@ html {
 }
 
 .snaps {
+  image-resolution: 100dpi;
   transition: 1s;
   width: 93%;
   transition-duration: .3s;
