@@ -8,6 +8,38 @@ html {
   scroll-behavior: smooth;
 }
 
+.notification {
+  background-color: #eb0029;
+  padding: 5px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification p {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.visit-btn {
+  color: #fff;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  padding: 3px 5px;
+  background-color: #000;
+  border-radius: 5px;
+  border-color: #000;
+}
+
+.visit-btn:hover {
+  background-color: rgb(40, 40, 40);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
 /* custom scroll bar */
 
 ::-webkit-scrollbar {
@@ -16,7 +48,7 @@ html {
 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 black;
-  box-radius: 10px;
+  /* box-radius: 10px; */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -36,18 +68,15 @@ html {
 
 #about-section {
   text-align: center;
-
 }
 
 .home-button {
   position: fixed;
   padding: 3% 0 0 93%;
-
 }
 
 .home-button:hover {
-
-  background-image: url("images/user.png")
+  background-image: url("images/user.png");
   /* display: block; */
 }
 
@@ -56,42 +85,34 @@ html {
   padding: 0.1rem;
   position: fixed;
   width: 100%;
-
 }
 .primary-left {
   text-align: center;
   margin: 13% 0 8% 0;
-
 }
 .primary-right {
   text-align: center;
   margin: 13% 0 8% 0;
-
 }
 
 .row {
   padding: 2% 5% 5%;
   /* background-color: #fff; */
-
-
 }
 .quote {
   /* width: 80%; */
   font-family: "Cookie";
   font-size: 3.2rem;
   line-height: 1.5;
-
 }
 
 .primary-line-img {
   text-align: center;
   opacity: 70%;
-
 }
 .primary-border {
   padding-top: 7%;
   text-align: center;
-
 }
 
 .first-greetings {
@@ -102,33 +123,27 @@ html {
 .p_buttons {
   /* position: relative; */
   transition: 5s;
-
-
 }
 
 .p_buttons:hover {
   /* transform: scale(1.2); */
-    border-radius: 10px;
+  border-radius: 10px;
   box-shadow: 0px 2px 30px 5px #ca8a8b;
-
 }
 .all_buttons {
-
   padding-top: 1.1rem;
 }
 
 .dragon {
   width: 60%;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .dragon:hover {
   transform: scale(1.2);
 }
 
-
 /* about section css */
-
 
 .user_image {
   image-rendering: auto;
@@ -141,8 +156,7 @@ html {
   border-top-color: #eb0029;
   border-right-color: #fff;
   border-bottom-color: #fff;
-  transition: .3s;
-
+  transition: 0.3s;
 }
 .user_image:hover {
   /* border-left-color: #ff005c;
@@ -151,16 +165,12 @@ html {
   border-right-color: #f0c929; */
   /* transform: scale(1.1); */
   box-shadow: 5px 5px 40px 5px #fb3640;
-
-
 }
 
 .about_subhead {
   font-size: 3.7rem;
   padding: 4% 0;
   font-family: "Josefin Sans";
-
-
 }
 
 .about-short {
@@ -180,21 +190,20 @@ html {
 /* Skills section css ahead */
 
 #skills {
-
 }
 
 .skills_subhead {
   padding: 4%;
   font-size: 3.7rem;
   text-align: center;
-  font-family: "Josefin Sans"
+  font-family: "Josefin Sans";
 }
 
 .pro {
   color: #fb3640;
 }
 
-.sub-headings{
+.sub-headings {
   font-size: 2.7rem;
   padding: 3% 0 5% 7%;
   font-family: "Questrial";
@@ -217,8 +226,7 @@ html {
 .left_logo {
   width: 17%;
   float: left;
-  padding-right:1.2rem;
-
+  padding-right: 1.2rem;
 }
 .c_paragraph {
   font-size: 1.3rem;
@@ -254,7 +262,6 @@ html {
   line-height: 2;
   font-family: Jost, sans-serif;
 }
-
 
 /* Operating System section */
 
@@ -300,28 +307,24 @@ html {
   font-size: 1rem;
 }
 
-
-
 .proud {
   font-size: 2.5rem;
-  font-family: "Cookie"
-
+  font-family: "Cookie";
 }
 
 .under-dev {
-
   color: #f3bda1;
   font-size: 1rem;
 }
 
 .dotted-line {
-    border-style: none;
-    border-top: groove;
-    border-width: 7px;
-    border-color: grey;
-    width: 30%;
-    padding: 3% 0;
-    transition-duration: .2s;
+  border-style: none;
+  border-top: groove;
+  border-width: 7px;
+  border-color: grey;
+  width: 30%;
+  padding: 3% 0;
+  transition-duration: 0.2s;
 }
 
 .dotted-line:hover {
@@ -329,7 +332,6 @@ html {
 }
 
 /* Hobbies Section */
-
 
 .hobb_subhead {
   padding: 4% 0 4% 0;
@@ -342,7 +344,6 @@ html {
   padding: 3% 0 0 7%;
   font-size: 2.7rem;
   font-family: "QUestrial";
-
 }
 
 .snaps-overload {
@@ -355,7 +356,7 @@ html {
   image-resolution: 100dpi;
   transition: 1s;
   width: 93%;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
   filter: grayscale(100%) opacity(97%);
   /* filter: opacity(70%); */
   border-style: groove;
@@ -364,14 +365,12 @@ html {
   border-width: 4px;
   /* position: relative; */
   /* display: block; */
-
 }
 
 .snaps:hover {
   transform: scale(1.1);
   filter: drop-shadow(5px 3px 18px #fb3640) grayscale(0) opacity(100%);
   /* filter: opacity(100%); */
-
 }
 
 .picture-discription {
@@ -380,7 +379,6 @@ html {
   transition-duration: 0.7s;
   font-size: 1.4rem;
   font-family: "Oregano";
-
 }
 
 .picture-discription:hover {
@@ -411,7 +409,6 @@ html {
   font-size: 3rem;
   font-family: "Cookie";
   padding: 7% 3% 5%;
-
 }
 
 .photography-journey {
@@ -425,28 +422,21 @@ html {
   line-height: 1.7;
   font-family: "Jost";
   padding-top: 3%;
-
 }
 
-
 .photography-row {
-
   border-style: outset;
   border-width: thin;
   border-color: #fb3640;
-
-
 }
 
 .camera {
   width: 60%;
   padding-bottom: 3%;
-
 }
 
 .photo-span {
   padding: 10% 0 2% 3%;
-
 }
 
 .head-photos {
@@ -473,7 +463,7 @@ html {
     margin: 0;
   }
 
-  .c_paragraph{
+  .c_paragraph {
     padding: 0;
     margin: 0;
     width: 95%;
@@ -504,8 +494,7 @@ html {
     transform: rotate(90deg);
     padding: 0;
     margin: 0;
-
-}
+  }
 
   .photography-para {
     text-align: center;
@@ -513,7 +502,5 @@ html {
 
   .home-button {
     padding: 4% 3% 0 85%;
-
-
   }
 }
