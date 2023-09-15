@@ -10,32 +10,39 @@ html {
 
 .notification {
   background-color: #eb0029;
-  padding: 5px 0px;
+  /* padding: 5px 0px; */
+  padding: 5px;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  align-self: center;
 }
 
 .notification p {
+  margin-top: 10px;
+
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
+  
+  /* font-weight: 600; */
 }
 
 .visit-btn {
   color: #fff;
   cursor: pointer;
-  border-width: 1px;
+  /* border-width: 1px; */
   border-style: solid;
-  padding: 3px 5px;
+  padding: 0px 30px;
+  /* margin-top: 10px; */
   background-color: #000;
   border-radius: 5px;
   border-color: #000;
+  font-size: 15px;
 }
 
 .visit-btn:hover {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
